@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class MultiplePopupWindows {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\SATHISHA\\JavaSelenium\\QAFoxSeleniumTraining\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\SATHISHA\\JavaSelenium\\QALearnSelenium\\driver\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://omayo.blogspot.com/");  // main window

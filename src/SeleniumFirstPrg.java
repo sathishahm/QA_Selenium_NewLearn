@@ -15,7 +15,7 @@ public class SeleniumFirstPrg {
 		
 		// System.setProperty("webdriver.chrome.driver","C:\\SATHISHA\\LEARN & WORK\\SELENIUM\\Selenium Software\\Drivers\\New Ones\\chromedriver.exe"); //out side the driver
 		
-		System.setProperty("webdriver.chrome.driver","C:\\SATHISHA\\JavaSelenium\\QAFoxSeleniumTraining\\driver\\chromedriver.exe"); // inside the project directory
+			System.setProperty("webdriver.chrome.driver", "C:\\SATHISHA\\JavaSelenium\\QALearnSelenium\\driver\\chromedriver.exe"); // inside the project directory
 	
 		//Blank browser opened
 		WebDriver driver = new ChromeDriver();

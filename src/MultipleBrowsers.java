@@ -18,7 +18,7 @@ public class MultipleBrowsers {
 		 WebDriver driver = null; // this is the parent class of all browser like ie, chrome and edge check in JAVA 11 API documention
 		 
 		 if (browser.equalsIgnoreCase("Chrome")) {
-			 System.setProperty("webdriver.chrome.driver","C:\\SATHISHA\\JavaSelenium\\QAFoxSeleniumTraining\\driver\\chromedriver.exe"); // inside the project directory
+			 System.setProperty("webdriver.chrome.driver", "C:\\SATHISHA\\JavaSelenium\\QALearnSelenium\\driver\\chromedriver.exe"); // inside the project directory
 			 driver = new ChromeDriver();
 			 
 		 } else if(browser.equalsIgnoreCase("firefox")){

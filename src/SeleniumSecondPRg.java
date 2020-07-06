@@ -11,7 +11,7 @@ public class SeleniumSecondPRg {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.gecko.driver","C:\\SATHISHA\\JavaSelenium\\QAFoxSeleniumTraining\\driver\\geckodriver.exe" );
+		System.setProperty("webdriver.gecko.driver","C:\\SATHISHA\\JavaSelenium\\QALearnSelenium\\driver\\geckodriver.exe" );
 		
 		WebDriver driver = new FirefoxDriver();
 		
