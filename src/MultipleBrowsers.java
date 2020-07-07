@@ -10,7 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class MultipleBrowsers {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		
 		/* multiple browser runs */
 		

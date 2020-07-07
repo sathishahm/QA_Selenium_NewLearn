@@ -33,6 +33,8 @@ public class AlertsDropDown {
 		
 		// Drop down and multi selection
 		driver.findElement(By.id("drop1")); // wrong approch this not exact way to select
+		
+		//Another important Method		
 		WebElement dropdownfield = driver.findElement(By.id("drop1"));
 		Select select = new Select(dropdownfield);
 		select.selectByVisibleText("doc 3");
