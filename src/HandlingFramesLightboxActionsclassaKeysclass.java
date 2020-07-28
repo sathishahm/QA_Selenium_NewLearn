@@ -41,6 +41,7 @@ public class HandlingFramesLightboxActionsclassaKeysclass {
 		WebElement selenium123 = driver.findElement(By.xpath("//span[contains(text(),'Selenium143')]"));
 		
 		Actions a = new Actions(driver);  // this is action class
+		
 		a.moveToElement(blogs).perform(); // add perform at the end
 		Thread.sleep(2000);
 		a.moveToElement(selenium123).click(selenium123).build().perform();  // build for multiple opention 
