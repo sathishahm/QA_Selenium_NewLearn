@@ -53,12 +53,11 @@ public class TakingScreenshotsAutosuggestiveDropdownsTablesCalendar {
 		Actions a = new Actions(driver);
 		a.moveToElement(logo).click().build().perform();
 		
-		
-		
+			
 		driver.findElement(By.id("fromCity")).click();
 		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys("del");
 		
-		int i=0;   // Four times to below key 
+		int i=0;   // Four times to below key Press
 		while (i<4) {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys(Keys.DOWN);
